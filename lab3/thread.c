@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define NUMBER_OF_THREADS 5
+#define NUMBER_OF_THREADS 10
 
 void *print_hello_world(void *tid) {
     /* This function prints the thread’s identifier and then exits. */

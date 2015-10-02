@@ -6,7 +6,8 @@ void triangle(){
     printf("Please  input  N(N<=18)  numbers:\n");
     scanf("%d",&n);
     printf("\n");
-    for(int i=0;  i<=n;  i++)    {
+    int i;
+    for( i=0;  i<=n;  i++)    {
         for(int j=0;  j<=n;  j++){
             array[i][j]  =  0;
         }

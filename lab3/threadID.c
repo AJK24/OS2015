@@ -11,8 +11,8 @@ void print_hello_world() {
 int main() {
     pthread_t thread;
     pthread_create(&thread, NULL, (void *)&print_hello_world, NULL);
-    pthread_yield();
+    // pthread_yield();
     printf("No, thread %#010x, I AM your father!!\n", thread_id);
-    
+
     return 0;
 }

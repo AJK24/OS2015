@@ -1,14 +1,13 @@
 #include <stdio.h>
 #include <pthread.h>
-void *helper();
 
+void *helper(void* arg) {
+    printf("thread \n");
+    pthread_exit(0);
+}
 void main() {
     pthread_t thread;
     pthread_create(&thread, NULL, &helper, NULL);
-    printf("Hello World! 2\n");
+    printf("main process\n");
     exit(0);
-}
-void *helper(void* arg) {
-    printf("Hello World! 1\n");
-    pthread_exit(0);
 }
