@@ -1,0 +1,26 @@
+    First lab  assignment
+
+Previously, we use gcc to compile your C programs.
+But this goes tedious and complicated as we use more files in C programming.
+
+At lab1, we have learned how to write our own makefile to help us.
+
+In this assignment, you are provided two files, one is PascallTriangle.c,  and the other is main.c.
+This program will ask the use to input an integer for the tiangle size. (<=15)  and print out the triangle on the screen .
+
+In this assignment, you are expected to finish the Makefile.
+
+There are detailed requirement for this MakeFile:
+1: the final generated file is "main" .
+    meaning that, after running your Makefile script, I can simply type
+    $./main   
+    and the output will be shown on screen.
+2:  please make sure that grader can type
+    $make all   
+    to test your submission.
+
+3:  Please  write a clean target (for $make clean) to remove your binaries. 
+ 
+
+If above is new to you, please see our lab1 materials. 
+   1) my class notes on Piazza, 2) your codes that was written at class ,and 3) my Github for all class codes.
